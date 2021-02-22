@@ -1,0 +1,98 @@
+li a:hover {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(215, 238, 252) !important;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(30, 49, 49) !important;
+}
+
+p {
+    color: rgb(30, 49, 49) !important;
+}
+
+.navbar-background {
+    background-color: white;
+}
+
+.logo-image {
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 6px;
+}
+
+.img-fluid {
+    height: 100% !important;
+    vertical-align: baseline;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.navbar {
+    height: 50px;
+    background-color: white;
+}
+
+.collapse {
+    height: 100%;
+}
+
+.navbar-nav {
+    height: 100%;
+}
+
+.nav-item {
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.nav-link {
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-responsive {
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+table.table-bordered {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+table.table-bordered>thead>tr>th {
+    border: 1px solid black;
+}
+
+table.table-bordered>tbody>tr>td {
+    border: 1px solid Black;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
